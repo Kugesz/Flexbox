@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#zold{
+    background-color: green;
+    flex: 1;
+}
+
+#sarga {
+    background-color: yellow;
+    flex: 1;
+    order: 3;
+}
+
+#lila {
+    background-color: purple;
+    flex: 1;
+    order: 2;
+}
+
+div.container {
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
